@@ -13,6 +13,10 @@
 		E0EBC2DB1A800A2200F5C57C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EBC2DA1A800A2200F5C57C /* Images.xcassets */; };
 		E0EBC2DE1A800A2200F5C57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EBC2DC1A800A2200F5C57C /* Main.storyboard */; };
 		E0EBC2EA1A800A2200F5C57C /* LatinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2E91A800A2200F5C57C /* LatinTests.m */; };
+		E0EBC2F91A800B4500F5C57C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2F41A800B4500F5C57C /* TFHpple.m */; };
+		E0EBC2FA1A800B4500F5C57C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */; };
+		E0EBC2FB1A800B4500F5C57C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2F81A800B4500F5C57C /* XPathQuery.m */; };
+		E0EBC2FE1A800B6700F5C57C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,13 @@
 		E0EBC2E31A800A2200F5C57C /* LatinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBC2E81A800A2200F5C57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EBC2E91A800A2200F5C57C /* LatinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatinTests.m; sourceTree = "<group>"; };
+		E0EBC2F31A800B4500F5C57C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		E0EBC2F41A800B4500F5C57C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		E0EBC2F51A800B4500F5C57C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		E0EBC2F71A800B4500F5C57C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		E0EBC2F81A800B4500F5C57C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EBC2FE1A800B6700F5C57C /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +73,7 @@
 		E0EBC2C41A800A2200F5C57C = {
 			isa = PBXGroup;
 			children = (
+				E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */,
 				E0EBC2CF1A800A2200F5C57C /* Latin */,
 				E0EBC2E61A800A2200F5C57C /* LatinTests */,
 				E0EBC2CE1A800A2200F5C57C /* Products */,
@@ -79,6 +92,7 @@
 		E0EBC2CF1A800A2200F5C57C /* Latin */ = {
 			isa = PBXGroup;
 			children = (
+				E0EBC2FC1A800B4800F5C57C /* Hpple */,
 				E0EBC2D21A800A2200F5C57C /* AppDelegate.h */,
 				E0EBC2D31A800A2200F5C57C /* AppDelegate.m */,
 				E0EBC2D71A800A2200F5C57C /* ViewController.h */,
@@ -114,6 +128,19 @@
 				E0EBC2E81A800A2200F5C57C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0EBC2FC1A800B4800F5C57C /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBC2F31A800B4500F5C57C /* TFHpple.h */,
+				E0EBC2F41A800B4500F5C57C /* TFHpple.m */,
+				E0EBC2F51A800B4500F5C57C /* TFHppleElement.h */,
+				E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */,
+				E0EBC2F71A800B4500F5C57C /* XPathQuery.h */,
+				E0EBC2F81A800B4500F5C57C /* XPathQuery.m */,
+			);
+			name = Hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +245,9 @@
 				E0EBC2D91A800A2200F5C57C /* ViewController.m in Sources */,
 				E0EBC2D61A800A2200F5C57C /* main.m in Sources */,
 				E0EBC2D41A800A2200F5C57C /* AppDelegate.m in Sources */,
+				E0EBC2F91A800B4500F5C57C /* TFHpple.m in Sources */,
+				E0EBC2FB1A800B4500F5C57C /* XPathQuery.m in Sources */,
+				E0EBC2FA1A800B4500F5C57C /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +362,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Latin;
 			};
 			name = Debug;
 		};
@@ -343,9 +378,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Latin;
 			};
 			name = Release;
 		};
@@ -364,7 +404,7 @@
 				);
 				INFOPLIST_FILE = LatinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatinTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latin.app/Contents/MacOS/Latin";
 			};
 			name = Debug;
@@ -380,7 +420,7 @@
 				);
 				INFOPLIST_FILE = LatinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LatinTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latin.app/Contents/MacOS/Latin";
 			};
 			name = Release;

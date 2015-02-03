@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTextField *wordTextField;
+
+@property (unsafe_unretained) IBOutlet NSTextView *definitionTextView;
+
+- (IBAction)wordTextFieldReturned:(NSTextField *)sender;
 
 @end
-
