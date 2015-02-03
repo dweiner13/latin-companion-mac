@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HistoryList.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +17,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    // clear user defaults (for debugging)
+//    NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
+//    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
+}
+
+- (IBAction)clearHistoryMenuItemClicked:(NSMenuItem *)sender {
+    [[HistoryList sharedHistoryList] clearHistory];
 }
 
 @end

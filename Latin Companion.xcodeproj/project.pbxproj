@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E013CDC71A8065A70013EBFB /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDC61A8065A70013EBFB /* SplitViewController.m */; };
+		E013CDCA1A80697F0013EBFB /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDC91A80697F0013EBFB /* HistoryViewController.m */; };
+		E013CDCD1A806C760013EBFB /* HistoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDCC1A806C760013EBFB /* HistoryList.m */; };
+		E013CDD01A8073DB0013EBFB /* HistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDCF1A8073DB0013EBFB /* HistoryItem.m */; };
 		E0EBC2D41A800A2200F5C57C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2D31A800A2200F5C57C /* AppDelegate.m */; };
 		E0EBC2D61A800A2200F5C57C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2D51A800A2200F5C57C /* main.m */; };
-		E0EBC2D91A800A2200F5C57C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2D81A800A2200F5C57C /* ViewController.m */; };
+		E0EBC2D91A800A2200F5C57C /* LookupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2D81A800A2200F5C57C /* LookupViewController.m */; };
 		E0EBC2DB1A800A2200F5C57C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EBC2DA1A800A2200F5C57C /* Images.xcassets */; };
 		E0EBC2DE1A800A2200F5C57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EBC2DC1A800A2200F5C57C /* Main.storyboard */; };
 		E0EBC2EA1A800A2200F5C57C /* LatinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2E91A800A2200F5C57C /* LatinTests.m */; };
@@ -17,6 +21,7 @@
 		E0EBC2FA1A800B4500F5C57C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */; };
 		E0EBC2FB1A800B4500F5C57C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC2F81A800B4500F5C57C /* XPathQuery.m */; };
 		E0EBC2FE1A800B6700F5C57C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */; };
+		E0EBC3021A8052DA00F5C57C /* WhitakerScraper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC3011A8052DA00F5C57C /* WhitakerScraper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +35,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E0EBC2CD1A800A2200F5C57C /* Latin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E013CDC51A8065A70013EBFB /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		E013CDC61A8065A70013EBFB /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		E013CDC81A80697F0013EBFB /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		E013CDC91A80697F0013EBFB /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		E013CDCB1A806C760013EBFB /* HistoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryList.h; sourceTree = "<group>"; };
+		E013CDCC1A806C760013EBFB /* HistoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryList.m; sourceTree = "<group>"; };
+		E013CDCE1A8073DB0013EBFB /* HistoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryItem.h; sourceTree = "<group>"; };
+		E013CDCF1A8073DB0013EBFB /* HistoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryItem.m; sourceTree = "<group>"; };
+		E013CDD11A8095A10013EBFB /* HistoryListDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryListDelegate.h; sourceTree = "<group>"; };
+		E013CDD21A809DA10013EBFB /* WhitakerScraperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhitakerScraperDelegate.h; sourceTree = "<group>"; };
+		E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latin Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBC2D11A800A2200F5C57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EBC2D21A800A2200F5C57C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0EBC2D31A800A2200F5C57C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0EBC2D51A800A2200F5C57C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0EBC2D71A800A2200F5C57C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0EBC2D81A800A2200F5C57C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0EBC2D71A800A2200F5C57C /* LookupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookupViewController.h; sourceTree = "<group>"; };
+		E0EBC2D81A800A2200F5C57C /* LookupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookupViewController.m; sourceTree = "<group>"; };
 		E0EBC2DA1A800A2200F5C57C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0EBC2DD1A800A2200F5C57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0EBC2E31A800A2200F5C57C /* LatinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +64,8 @@
 		E0EBC2F71A800B4500F5C57C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		E0EBC2F81A800B4500F5C57C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E0EBC3001A8052DA00F5C57C /* WhitakerScraper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhitakerScraper.h; sourceTree = "<group>"; };
+		E0EBC3011A8052DA00F5C57C /* WhitakerScraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhitakerScraper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +100,7 @@
 		E0EBC2CE1A800A2200F5C57C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0EBC2CD1A800A2200F5C57C /* Latin.app */,
+				E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */,
 				E0EBC2E31A800A2200F5C57C /* LatinTests.xctest */,
 			);
 			name = Products;
@@ -92,14 +109,24 @@
 		E0EBC2CF1A800A2200F5C57C /* Latin */ = {
 			isa = PBXGroup;
 			children = (
+				E0EBC2FF1A80525300F5C57C /* scraper */,
 				E0EBC2FC1A800B4800F5C57C /* Hpple */,
-				E0EBC2D21A800A2200F5C57C /* AppDelegate.h */,
-				E0EBC2D31A800A2200F5C57C /* AppDelegate.m */,
-				E0EBC2D71A800A2200F5C57C /* ViewController.h */,
-				E0EBC2D81A800A2200F5C57C /* ViewController.m */,
+				E013CDC51A8065A70013EBFB /* SplitViewController.h */,
+				E013CDC61A8065A70013EBFB /* SplitViewController.m */,
+				E0EBC2D71A800A2200F5C57C /* LookupViewController.h */,
+				E0EBC2D81A800A2200F5C57C /* LookupViewController.m */,
+				E013CDC81A80697F0013EBFB /* HistoryViewController.h */,
+				E013CDC91A80697F0013EBFB /* HistoryViewController.m */,
 				E0EBC2DA1A800A2200F5C57C /* Images.xcassets */,
 				E0EBC2DC1A800A2200F5C57C /* Main.storyboard */,
+				E013CDCE1A8073DB0013EBFB /* HistoryItem.h */,
+				E013CDCF1A8073DB0013EBFB /* HistoryItem.m */,
+				E013CDD11A8095A10013EBFB /* HistoryListDelegate.h */,
+				E013CDCB1A806C760013EBFB /* HistoryList.h */,
+				E013CDCC1A806C760013EBFB /* HistoryList.m */,
 				E0EBC2D01A800A2200F5C57C /* Supporting Files */,
+				E0EBC2D21A800A2200F5C57C /* AppDelegate.h */,
+				E0EBC2D31A800A2200F5C57C /* AppDelegate.m */,
 			);
 			path = Latin;
 			sourceTree = "<group>";
@@ -143,6 +170,16 @@
 			name = Hpple;
 			sourceTree = "<group>";
 		};
+		E0EBC2FF1A80525300F5C57C /* scraper */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBC3001A8052DA00F5C57C /* WhitakerScraper.h */,
+				E0EBC3011A8052DA00F5C57C /* WhitakerScraper.m */,
+				E013CDD21A809DA10013EBFB /* WhitakerScraperDelegate.h */,
+			);
+			name = scraper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,7 +197,7 @@
 			);
 			name = Latin;
 			productName = Latin;
-			productReference = E0EBC2CD1A800A2200F5C57C /* Latin.app */;
+			productReference = E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E0EBC2E21A800A2200F5C57C /* LatinTests */ = {
@@ -199,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin" */;
+			buildConfigurationList = E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin Companion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,10 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0EBC2D91A800A2200F5C57C /* ViewController.m in Sources */,
+				E0EBC2D91A800A2200F5C57C /* LookupViewController.m in Sources */,
 				E0EBC2D61A800A2200F5C57C /* main.m in Sources */,
+				E013CDD01A8073DB0013EBFB /* HistoryItem.m in Sources */,
+				E013CDCA1A80697F0013EBFB /* HistoryViewController.m in Sources */,
 				E0EBC2D41A800A2200F5C57C /* AppDelegate.m in Sources */,
+				E013CDCD1A806C760013EBFB /* HistoryList.m in Sources */,
+				E013CDC71A8065A70013EBFB /* SplitViewController.m in Sources */,
 				E0EBC2F91A800B4500F5C57C /* TFHpple.m in Sources */,
+				E0EBC3021A8052DA00F5C57C /* WhitakerScraper.m in Sources */,
 				E0EBC2FB1A800B4500F5C57C /* XPathQuery.m in Sources */,
 				E0EBC2FA1A800B4500F5C57C /* TFHppleElement.m in Sources */,
 			);
@@ -369,7 +411,7 @@
 				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = Latin;
+				PRODUCT_NAME = "Latin Companion";
 			};
 			name = Debug;
 		};
@@ -385,7 +427,7 @@
 				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = Latin;
+				PRODUCT_NAME = "Latin Companion";
 			};
 			name = Release;
 		};
@@ -428,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin" */ = {
+		E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin Companion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0EBC2EB1A800A2200F5C57C /* Debug */,
@@ -444,6 +486,7 @@
 				E0EBC2EF1A800A2200F5C57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0EBC2F01A800A2200F5C57C /* Build configuration list for PBXNativeTarget "LatinTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +495,7 @@
 				E0EBC2F21A800A2200F5C57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
