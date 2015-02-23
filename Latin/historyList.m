@@ -23,10 +23,10 @@
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         NSData *storedHistory = [defaults objectForKey:@"history"];
         if(storedHistory) {
-            self.history = [[NSKeyedUnarchiver unarchiveObjectWithData:storedHistory] mutableCopy];
+            _history = [[NSKeyedUnarchiver unarchiveObjectWithData:storedHistory] mutableCopy];
         }
         else {
-            self.history = [NSMutableArray array];
+            _history = [NSMutableArray array];
         }
     }
     

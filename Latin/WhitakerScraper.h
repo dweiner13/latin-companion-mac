@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "WhitakerScraperDelegate.h"
 
-@interface WhitakerScraper : NSObject <NSURLConnectionDataDelegate, NSURLConnectionDataDelegate>
+@interface WhitakerScraper : NSObject <NSURLConnectionDataDelegate>
 
 @property (strong, nonatomic) NSString *word;
 
@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, WhitakerScraperTargetLanguage) {
     WhitakerScraperTargetLanguageLatin = 1
 };
 
-@property (strong, nonatomic) id<WhitakerScraperDelegate> delegate;
+@property (weak, nonatomic) id<WhitakerScraperDelegate> delegate;
 
 - (void)initiateRequestForWord:(NSString *)word targetLanguage:(WhitakerScraperTargetLanguage)targetLanguage;
 
