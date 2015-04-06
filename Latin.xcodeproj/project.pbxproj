@@ -45,7 +45,7 @@
 		E013CDCF1A8073DB0013EBFB /* HistoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryItem.m; sourceTree = "<group>"; };
 		E013CDD11A8095A10013EBFB /* HistoryListDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryListDelegate.h; sourceTree = "<group>"; };
 		E013CDD21A809DA10013EBFB /* WhitakerScraperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhitakerScraperDelegate.h; sourceTree = "<group>"; };
-		E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latin Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EBC2CD1A800A2200F5C57C /* Latin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBC2D11A800A2200F5C57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EBC2D21A800A2200F5C57C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0EBC2D31A800A2200F5C57C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		E0EBC2CE1A800A2200F5C57C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */,
+				E0EBC2CD1A800A2200F5C57C /* Latin.app */,
 				E0EBC2E31A800A2200F5C57C /* LatinTests.xctest */,
 			);
 			name = Products;
@@ -197,7 +197,7 @@
 			);
 			name = Latin;
 			productName = Latin;
-			productReference = E0EBC2CD1A800A2200F5C57C /* Latin Companion.app */;
+			productReference = E0EBC2CD1A800A2200F5C57C /* Latin.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E0EBC2E21A800A2200F5C57C /* LatinTests */ = {
@@ -236,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin Companion" */;
+			buildConfigurationList = E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -412,7 +412,7 @@
 				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "Latin Companion";
+				PRODUCT_NAME = Latin;
 				SWIFT_OBJC_BRIDGING_HEADER = "Latin/Latin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -431,7 +431,7 @@
 				);
 				INFOPLIST_FILE = Latin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "Latin Companion";
+				PRODUCT_NAME = Latin;
 				SWIFT_OBJC_BRIDGING_HEADER = "Latin/Latin-Bridging-Header.h";
 			};
 			name = Release;
@@ -475,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin Companion" */ = {
+		E0EBC2C81A800A2200F5C57C /* Build configuration list for PBXProject "Latin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0EBC2EB1A800A2200F5C57C /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E0EBC2CC1A800A2200F5C57C"
-               BuildableName = "Latin Companion.app"
+               BuildableName = "Latin.app"
                BlueprintName = "Latin"
-               ReferencedContainer = "container:Latin Companion.xcodeproj">
+               ReferencedContainer = "container:Latin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "E0EBC2E21A800A2200F5C57C"
                BuildableName = "LatinTests.xctest"
                BlueprintName = "LatinTests"
-               ReferencedContainer = "container:Latin Companion.xcodeproj">
+               ReferencedContainer = "container:Latin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "E0EBC2E21A800A2200F5C57C"
                BuildableName = "LatinTests.xctest"
                BlueprintName = "LatinTests"
-               ReferencedContainer = "container:Latin Companion.xcodeproj">
+               ReferencedContainer = "container:Latin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E0EBC2CC1A800A2200F5C57C"
-            BuildableName = "Latin Companion.app"
+            BuildableName = "Latin.app"
             BlueprintName = "Latin"
-            ReferencedContainer = "container:Latin Companion.xcodeproj">
+            ReferencedContainer = "container:Latin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E0EBC2CC1A800A2200F5C57C"
-            BuildableName = "Latin Companion.app"
+            BuildableName = "Latin.app"
             BlueprintName = "Latin"
-            ReferencedContainer = "container:Latin Companion.xcodeproj">
+            ReferencedContainer = "container:Latin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E0EBC2CC1A800A2200F5C57C"
-            BuildableName = "Latin Companion.app"
+            BuildableName = "Latin.app"
             BlueprintName = "Latin"
-            ReferencedContainer = "container:Latin Companion.xcodeproj">
+            ReferencedContainer = "container:Latin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
