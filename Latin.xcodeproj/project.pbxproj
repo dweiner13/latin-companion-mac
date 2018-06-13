@@ -87,6 +87,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E00457AB20D0B40E005AFB15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E013CDC51A8065A70013EBFB /* SplitViewController.h */,
+				E013CDC61A8065A70013EBFB /* SplitViewController.m */,
+				E0EBC2D71A800A2200F5C57C /* LookupViewController.h */,
+				E0EBC2D81A800A2200F5C57C /* LookupViewController.m */,
+				E013CDC81A80697F0013EBFB /* HistoryViewController.h */,
+				E013CDC91A80697F0013EBFB /* HistoryViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E00457AC20D0B41A005AFB15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E013CDCE1A8073DB0013EBFB /* HistoryItem.h */,
+				E013CDCF1A8073DB0013EBFB /* HistoryItem.m */,
+				E013CDD11A8095A10013EBFB /* HistoryListDelegate.h */,
+				E013CDCB1A806C760013EBFB /* HistoryList.h */,
+				E013CDCC1A806C760013EBFB /* HistoryList.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E00457AD20D0B435005AFB15 /* WhitakerScraper */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBC3001A8052DA00F5C57C /* WhitakerScraper.h */,
+				E0EBC3011A8052DA00F5C57C /* WhitakerScraper.m */,
+				E013CDD21A809DA10013EBFB /* WhitakerScraperDelegate.h */,
+			);
+			path = WhitakerScraper;
+			sourceTree = "<group>";
+		};
+		E00457AF20D0B448005AFB15 /* Hppl */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBC2F31A800B4500F5C57C /* TFHpple.h */,
+				E0EBC2F41A800B4500F5C57C /* TFHpple.m */,
+				E0EBC2F51A800B4500F5C57C /* TFHppleElement.h */,
+				E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */,
+				E0EBC2F71A800B4500F5C57C /* XPathQuery.h */,
+				E0EBC2F81A800B4500F5C57C /* XPathQuery.m */,
+			);
+			path = Hppl;
+			sourceTree = "<group>";
+		};
 		E0EBC2C41A800A2200F5C57C = {
 			isa = PBXGroup;
 			children = (
@@ -109,24 +157,15 @@
 		E0EBC2CF1A800A2200F5C57C /* Latin */ = {
 			isa = PBXGroup;
 			children = (
-				E0EBC2FF1A80525300F5C57C /* scraper */,
-				E0EBC2FC1A800B4800F5C57C /* Hpple */,
-				E013CDC51A8065A70013EBFB /* SplitViewController.h */,
-				E013CDC61A8065A70013EBFB /* SplitViewController.m */,
-				E0EBC2D71A800A2200F5C57C /* LookupViewController.h */,
-				E0EBC2D81A800A2200F5C57C /* LookupViewController.m */,
-				E013CDC81A80697F0013EBFB /* HistoryViewController.h */,
-				E013CDC91A80697F0013EBFB /* HistoryViewController.m */,
-				E0EBC2DA1A800A2200F5C57C /* Images.xcassets */,
-				E0EBC2DC1A800A2200F5C57C /* Main.storyboard */,
-				E013CDCE1A8073DB0013EBFB /* HistoryItem.h */,
-				E013CDCF1A8073DB0013EBFB /* HistoryItem.m */,
-				E013CDD11A8095A10013EBFB /* HistoryListDelegate.h */,
-				E013CDCB1A806C760013EBFB /* HistoryList.h */,
-				E013CDCC1A806C760013EBFB /* HistoryList.m */,
-				E0EBC2D01A800A2200F5C57C /* Supporting Files */,
 				E0EBC2D21A800A2200F5C57C /* AppDelegate.h */,
 				E0EBC2D31A800A2200F5C57C /* AppDelegate.m */,
+				E00457AF20D0B448005AFB15 /* Hppl */,
+				E00457AD20D0B435005AFB15 /* WhitakerScraper */,
+				E00457AC20D0B41A005AFB15 /* Model */,
+				E00457AB20D0B40E005AFB15 /* View Controllers */,
+				E0EBC2DA1A800A2200F5C57C /* Images.xcassets */,
+				E0EBC2DC1A800A2200F5C57C /* Main.storyboard */,
+				E0EBC2D01A800A2200F5C57C /* Supporting Files */,
 			);
 			path = Latin;
 			sourceTree = "<group>";
@@ -155,29 +194,6 @@
 				E0EBC2E81A800A2200F5C57C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E0EBC2FC1A800B4800F5C57C /* Hpple */ = {
-			isa = PBXGroup;
-			children = (
-				E0EBC2F31A800B4500F5C57C /* TFHpple.h */,
-				E0EBC2F41A800B4500F5C57C /* TFHpple.m */,
-				E0EBC2F51A800B4500F5C57C /* TFHppleElement.h */,
-				E0EBC2F61A800B4500F5C57C /* TFHppleElement.m */,
-				E0EBC2F71A800B4500F5C57C /* XPathQuery.h */,
-				E0EBC2F81A800B4500F5C57C /* XPathQuery.m */,
-			);
-			name = Hpple;
-			sourceTree = "<group>";
-		};
-		E0EBC2FF1A80525300F5C57C /* scraper */ = {
-			isa = PBXGroup;
-			children = (
-				E0EBC3001A8052DA00F5C57C /* WhitakerScraper.h */,
-				E0EBC3011A8052DA00F5C57C /* WhitakerScraper.m */,
-				E013CDD21A809DA10013EBFB /* WhitakerScraperDelegate.h */,
-			);
-			name = scraper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
