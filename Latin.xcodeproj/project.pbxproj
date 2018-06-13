@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E00457B320D0B561005AFB15 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = E00457B220D0B561005AFB15 /* screen1.png */; };
 		E013CDC71A8065A70013EBFB /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDC61A8065A70013EBFB /* SplitViewController.m */; };
 		E013CDCA1A80697F0013EBFB /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDC91A80697F0013EBFB /* HistoryViewController.m */; };
 		E013CDCD1A806C760013EBFB /* HistoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CDCC1A806C760013EBFB /* HistoryList.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E00457B020D0B4A3005AFB15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
+		E00457B220D0B561005AFB15 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
 		E013CDC51A8065A70013EBFB /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
 		E013CDC61A8065A70013EBFB /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
 		E013CDC81A80697F0013EBFB /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
@@ -135,9 +138,19 @@
 			path = Hppl;
 			sourceTree = "<group>";
 		};
+		E00457B120D0B559005AFB15 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E00457B220D0B561005AFB15 /* screen1.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		E0EBC2C41A800A2200F5C57C = {
 			isa = PBXGroup;
 			children = (
+				E00457B120D0B559005AFB15 /* screenshots */,
+				E00457B020D0B4A3005AFB15 /* README.md */,
 				E0EBC2FD1A800B6700F5C57C /* libxml2.dylib */,
 				E0EBC2CF1A800A2200F5C57C /* Latin */,
 				E0EBC2E61A800A2200F5C57C /* LatinTests */,
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EBC2DB1A800A2200F5C57C /* Images.xcassets in Resources */,
+				E00457B320D0B561005AFB15 /* screen1.png in Resources */,
 				E0EBC2DE1A800A2200F5C57C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
